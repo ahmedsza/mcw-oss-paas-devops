@@ -53,23 +53,3 @@ Runs the app in the development mode. You will also see any lint errors in the c
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
-mongodb://best-for-you-db-ahms:477HyLn2NxhITvqOhGnR7vLHu3zcvTkcs7Wshp3ikNf3MFOXe3DwNKnfxVimeXwRDuMZn7yYCwWne64HXQTcZw==@best-for-you-db-ahms.documents.azure.com:10255/?ssl=true&replicaSet=globaldb
-
-mongoimport --host best-for-you-db-ahms.documents.azure.com:10255 -u best-for-you-db-ahms -p 477HyLn2NxhITvqOhGnR7vLHu3zcvTkcs7Wshp3ikNf3MFOXe3DwNKnfxVimeXwRDuMZn7yYCwWne64HXQTcZw== --db best-for-you-organics --collection plans --ssl --sslAllowInvalidCertificates --type json --file ~/MongoExport/plans.json
-
-mongoimport --host best-for-you-db-ahms.documents.azure.com:10255 -u best-for-you-db-ahms -p 477HyLn2NxhITvqOhGnR7vLHu3zcvTkcs7Wshp3ikNf3MFOXe3DwNKnfxVimeXwRDuMZn7yYCwWne64HXQTcZw== --db best-for-you-organics --collection users --ssl --sslAllowInvalidCertificates --type json --file ~/MongoExport/users.json
-
-mongoimport --host best-for-you-db-ahms.documents.azure.com:10255 -u best-for-you-db-ahms -p 477HyLn2NxhITvqOhGnR7vLHu3zcvTkcs7Wshp3ikNf3MFOXe3DwNKnfxVimeXwRDuMZn7yYCwWne64HXQTcZw== --db best-for-you-organics --collection orders --ssl --sslAllowInvalidCertificates --type json --file ~/MongoExport/orders.json
-
-
-
-mongodb://best-for-you-db-ahms:477HyLn2NxhITvqOhGnR7vLHu3zcvTkcs7Wshp3ikNf3MFOXe3DwNKnfxVimeXwRDuMZn7yYCwWne64HXQTcZw==@best-for-you-db-ahms.documents.azure.com:10255/?ssl=true&replicaSet=globaldb
-
-bestforyouregistryahms.azurecr.io
-bestforyouregistryahms
-
-
-
-5+0HfHZ/OEG4f2rr=LZ9OmDqvveIpgYK
-
-docker login bestforyouregistryahms.azurecr.io -u bestforyouregistryahms
